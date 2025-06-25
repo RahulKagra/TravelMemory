@@ -60,7 +60,7 @@ Set up a reverse proxy on your EC2 instance to:
 server {
     listen 80;
 
-    server_name mongodb+srv://rahulkagra1625;
+    server_name rahul1625;
 
     location /api/ {
         proxy_pass http://localhost:3000/;
